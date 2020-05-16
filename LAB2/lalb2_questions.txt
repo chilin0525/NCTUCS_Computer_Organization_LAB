@@ -1,0 +1,23 @@
+1.
+What is the difference between "input [15:0] input_0" and "input [0:15]
+input_0" inside the module?
+
+陣列位置的index不同，[15:0]是以15為最高位，0為最低位，[0:15]則是以0為最高位，15為最低位。
+
+
+2.
+What is the meaning of "always" block in Verilog?
+
+當發生了指定的事件(event)時，在這個"always" block 裡的指令就應該被執行
+
+3.
+What are the advantages and disadvantages of port connection by
+order and port connection by name in Verilog?
+
+connection by order:
+優:有些port可以不連結，也就是不一定要傳參數過去，此時傳過去的值有可能會是高組態(high impedance)或未定值(unknown value)
+缺:需要照順序寫
+
+connection by name:
+優:無需照順序寫
+缺:所有port都必須要連結
