@@ -2,18 +2,21 @@
 
 ## LAB5
 
+拿LAB4的Cache算出Address後看有沒有在Cache裡頭即可
+
 file:
 simulate_caches.cpp
 makefile
 
 How to test:
-**指令 ./sima./simulate_caches a1xb1 output**
 
-**指令 ./sima./simulate_caches a2xb2 output**
+** ./sima./simulate_caches a1xb1 output**
 
-**指令 ./sima./simulate_caches a3xb3 output**
+** ./sima./simulate_caches a2xb2 output**
 
-**指令 ./sima./simulate_caches a4xb4 output**
+** ./sima./simulate_caches a3xb3 output**
+
+** ./sima./simulate_caches a4xb4 output**
 
 the answer of test file:
 a1xb1-->smaple_c1
