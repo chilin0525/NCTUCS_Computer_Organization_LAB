@@ -10,13 +10,13 @@ makefile
 
 How to test:
 
-** ./sima./simulate_caches a1xb1 output**
+**./sima./simulate_caches a1xb1 output**
 
-** ./sima./simulate_caches a2xb2 output**
+**./sima./simulate_caches a2xb2 output**
 
-** ./sima./simulate_caches a3xb3 output**
+**./sima./simulate_caches a3xb3 output**
 
-** ./sima./simulate_caches a4xb4 output**
+**./sima./simulate_caches a4xb4 output**
 
 the answer of test file:
 a1xb1-->smaple_c1
